@@ -23,15 +23,18 @@ def fetch_fashion_mnist() -> dict:
     fetches the fashion MNIST dataset using the torch vision API
     :return: the fashion MNIST dataset
     """
+    dataset_path = os.path.join(os.path.dirname(os.getcwd()), 'dataset')
+    os.makedirs(dataset_path)
+
     train_set = torchvision.datasets.FashionMNIST(
-        root=os.path.join(os.path.dirname(os.getcwd()), 'dataset'),
+        root=dataset_path,
         train=True,
         download=True,
         transform=transforms.Compose([transforms.ToTensor()])
     )
 
     test_set = torchvision.datasets.FashionMNIST(
-        root=os.path.join(os.path.dirname(os.getcwd()), 'dataset'),
+        root=dataset_path,
         train=False,
         download=True,
         transform=transforms.Compose([transforms.ToTensor()])
