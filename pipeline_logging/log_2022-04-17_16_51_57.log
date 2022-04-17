@@ -1,0 +1,4 @@
+INFO:root:Starting experiment 2022-04-17_16_51_57
+INFO:root:generating dataset
+INFO:root:dataset successfully generated
+INFO:root:fetching model and performing k-fold CV
