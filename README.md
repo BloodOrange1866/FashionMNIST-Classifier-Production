@@ -32,7 +32,7 @@ LTX-ML-Challenge
 
 ### Running this repository
 
-- After cloning this repo, the user must firstly install the requirements.txt file using conda (conda create --name <env> --file requirements.txt).
+- After cloning this repo, the user must firstly install the requirements.txt file using an environment of their choice (I used venv).
 - The user must then specify the relevant arugmnets in the main.py method (admitingly, if I had more time I would've used argparse to collect these automatically).
 
 #### Available Arguments

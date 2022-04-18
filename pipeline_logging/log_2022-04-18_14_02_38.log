@@ -1,0 +1,5 @@
+INFO:root:Starting experiment 2022-04-18_14_02_38
+INFO:root:generating dataset
+INFO:root:dataset successfully generated
+INFO:root:loading our best model
+INFO:root:evaluating our final model

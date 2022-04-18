@@ -3,7 +3,6 @@ import utils
 import logging
 import os
 import datetime
-import argparse
 
 import warnings
 warnings.filterwarnings('ignore')
