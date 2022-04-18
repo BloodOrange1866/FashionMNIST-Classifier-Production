@@ -50,3 +50,10 @@ Additionally, the pipeline outputs a confusion matrix of the best classifier, pl
 <img src="/visualisation/cm_best.png"> 
 
 ### Nice to haves
+
+If I spent more time on this project I would've implemented the following:
+
+- unit / integration testing via pytest.
+- parser inputs using argparse.
+- parellel processing using Ray.
+- representation learning / more sophisticated CNNs w/ inception blocks for example.
