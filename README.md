@@ -16,6 +16,9 @@ LTX-ML-Challenge
 └───model_weights
 │      - stores the best model weights.
 │  
+└───pipeline_logging
+│      - stores all of the logs when the pipeline is executed.
+│  
 ───src
 │      - main.py (main point of code execution).
 │      - data_representation.py (all code pertaining to data fetching / wrangling).
