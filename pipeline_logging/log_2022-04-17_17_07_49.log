@@ -1,0 +1,9 @@
+INFO:root:Starting experiment 2022-04-17_17_07_49
+INFO:root:generating dataset
+INFO:root:dataset successfully generated
+INFO:root:fetching model and performing k-fold CV
+INFO:root:finding the best combination of hyperparameters
+INFO:root:training on the entire dataset
+INFO:root:model trained, ready for evaluation
+INFO:root:evaluating our final model
+INFO:root:pipeline successfully completed, check logs for more details

@@ -3,6 +3,7 @@ import utils
 import logging
 import os
 import datetime
+import argparse
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -48,13 +49,14 @@ if __name__=="__main__":
 
     date_of_execution = str(datetime.datetime.now().strftime("%Y-%m-%d %H_%M_%S")).replace(" ", "_")
 
+
     args = {
         'data_representation': {
             'k_fold': {'test_size': 0.3, 'k': 5},
             'batch_size': 1024
         },
         'methods': {
-            'train_model': True,
+            'train_model': False,
             'model_type': '2D-CNN',
             'epochs': 50,
             'hyperparameters': {

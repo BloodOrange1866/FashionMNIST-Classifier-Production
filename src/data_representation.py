@@ -24,7 +24,9 @@ def fetch_fashion_mnist() -> dict:
     :return: the fashion MNIST dataset
     """
     dataset_path = os.path.join(os.path.dirname(os.getcwd()), 'dataset')
-    os.makedirs(dataset_path)
+
+    if not os.path.exists(dataset_path):
+        os.makedirs(dataset_path)
 
     train_set = torchvision.datasets.FashionMNIST(
         root=dataset_path,
