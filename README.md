@@ -26,6 +26,6 @@ The pipeline outputs various loss curves for each hyperparameter combination sel
 Additionally, the pipeline outputs a confusion matrix of the best classifier, please see below:
 
 
-<img src="/visualisation/cm_beest.PNG"> 
+<img src="/visualisation/cm_best.PNG"> 
 
 ### Nice to haves

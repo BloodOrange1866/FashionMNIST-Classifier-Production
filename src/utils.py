@@ -71,7 +71,7 @@ def evaluate_final_model(model: object, data: dict):
     sns.set()
     sns.heatmap(df_cm, annot=True, annot_kws={"size": 16}, fmt='.5g')
     plt.title(f"confusion Matrix of best performing model: F1 {round(f1,3)}")
-    plt.savefig(os.path.join(os.path.dirname(os.getcwd()), 'visualisation', f'cm_beest.png'))
+    plt.savefig(os.path.join(os.path.dirname(os.getcwd()), 'visualisation', f'cm_best.png'))
 
 
 def train_model(master_model: object, dataset: dict, args: dict, hyperparameters: bool, **kwargs) -> ():
