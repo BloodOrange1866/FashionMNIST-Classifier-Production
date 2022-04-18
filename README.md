@@ -6,6 +6,27 @@
 
 In this project, the FasionMNIST dataset is used to train and evaluate a multi-class classifier (Convolutional Neural Networks). The optimal set of hyperparemeters are found using a k-fold cross validation. This goal of this ML pipeline project is more so to highlight coding / production level ability rather than development of fancy DL approaches. The code has been developed in a modular fashion and is re-used throghout the repo. 
 
+### Directory structure
+
+```
+LTX-ML-Challenge
+│   README.md
+│   requirements.txt     
+│
+└───model_weights
+│      - stores the best model weights.
+│  
+───src
+│      - main.py (main point of code execution).
+│      - data_representation.py (all code pertaining to data fetching / wrangling).
+│      - utils.py (all helper / training functions).
+│      ───models (contains all model files).
+
+───visualisation
+│      - contains all the CMs / loss curves / plots for inspection.
+```
+
+
 ### Running this repository
 
 - After cloning this repo, the user must firstly install the requirements.txt file using conda (conda create --name <env> --file requirements.txt).
@@ -26,6 +47,6 @@ The pipeline outputs various loss curves for each hyperparameter combination sel
 Additionally, the pipeline outputs a confusion matrix of the best classifier, please see below:
 
 
-<img src="/visualisation/cm_best.PNG"> 
+<img src="/visualisation/cm_best.png"> 
 
 ### Nice to haves
